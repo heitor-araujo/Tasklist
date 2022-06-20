@@ -5,7 +5,7 @@ const Tasks = ({ tasks }) => {
     return (
         <>
          {tasks.map( (tasks) => (
-            <Task />
+            <Task task={tasks} />
          ))}
         </>
     )
